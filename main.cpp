@@ -13,26 +13,26 @@ class Employee{
 
 int main (){
   
-  // Employee 1: Robert
+  // Employee 01: Robert
   Employee empObj1;
   empObj1.name = "Robert";
   empObj1.yearjoined = 2018;
   empObj1.salary = "£25,000";
-  empObj1.address = "64C  London  Street";
+  empObj1.address = "64C London Street";
   
-  // Employee 2: Farah
+  // Employee 02: Farah
   Employee empObj2;
   empObj2.name = "Farah";
   empObj2.yearjoined = 2015;
   empObj2.salary = "£35,000";
-  empObj2.address = "68D  Bristol Road";
+  empObj2.address = "68D Bristol Road";
 
   // Employee 03: Satinder
   Employee empObj3;
   empObj3.name = "Satinder";
   empObj3.yearjoined = 2019;
   empObj3.salary = "£32,500";
-  empObj3.address = "26B  Salt Street";
+  empObj3.address = "26B Salt Street";
 
   // Print Details
   cout << "Employee Records";
@@ -51,7 +51,7 @@ int main (){
   cout << "\nSalary: " << empObj2.salary;
   cout << "\nAddress: " << empObj2.address;
   cout << "\n";
-  
+
   // 03
   cout << "\nName: " << empObj3.name;
   cout << "\nYear Joined: " << empObj3.yearjoined;
